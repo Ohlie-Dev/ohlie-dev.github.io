@@ -2,9 +2,14 @@ body {
     background-color: #e9e2e4;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 nav {
     background-color: gray;
-}
+} 
 
 #mainNav .nav-link {
     font-weight: bolder;
@@ -24,7 +29,7 @@ nav {
 }
 
 .hero-section {
-   min-height: 70vh;  
+   min-height: 70svh; 
     background-image: no-repeat;
     background-position: center;
   background-size: 100% 100%;
@@ -36,7 +41,7 @@ nav {
     font-size: 35px;
     color: rgb(35, 34, 34);
     font-family: "Google Sans", sans-serif;
-    padding-top: 80px;
+    padding-top: 19%;
     margin-left: 5%;
     font-weight: 700;
 }
@@ -68,7 +73,7 @@ color: #af6c86;
     background-color: #af6c86;
     border-radius: 35%;
     height: 200px;
-    margin-left: 50%;
+    margin-left: 45%;
 }
 
 .about {
@@ -90,9 +95,9 @@ color: #af6c86;
     display: flex;
     border-bottom: dotted gray;
     width: 50px;
-    margin-left: 45%;
  display: inline-block;
     color: aqua;
+     margin-left: 45%;
      
 }
 
@@ -100,6 +105,8 @@ color: #af6c86;
    display: inline-block;
    margin-left: 0.8%;
    color: gray;
+ 
+
 }
 
 .divider-right {
@@ -108,6 +115,7 @@ color: #af6c86;
     width: 50px;
     margin-left: 0.8%;
     display: inline-block;
+    
 }
 
 .about-body {
@@ -141,11 +149,17 @@ p span {
     margin-left: 5%;
 
 }
-
+.body-card {
+   height: 90%;
+    border-radius: 12px;
+    width: 80%;
+    margin-top: 7%;
+    margin-left: 6%;
+}
 .body-img {
-    border-radius: 3px;
-   
-    
+   height: 92%;
+    width: 100%;
+    border-radius: 12px;
 }
 
 ul {
@@ -154,6 +168,9 @@ ul {
 
 .Skills {
     margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+
     
 }
 
@@ -299,7 +316,6 @@ border: none;
 .footer-img {
     min-height: 20px;
     margin-top: 2%;
-    margin-left: 40%;
 }
 
  @media (max-width: 768px)  {
@@ -308,7 +324,13 @@ border: none;
     margin-top: 4%;
 }
 
-
+    .menu-toggle.active .hamburger {
+        display: none; 
+    }
+    .menu-toggle.active .cancel {
+        display: block; 
+    }
+  
     .divider {
         margin-left: 5%;
     }
@@ -319,7 +341,6 @@ border: none;
     .divider-right {
      margin-left: 5%;
     }
-
 
     .about {
        text-align: start;
@@ -384,6 +405,13 @@ ul {
 
 .portfolio-img {
     margin-left: 2%;
+}
+
+.footer p {
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 10px;
+    font-weight: 100;
 }
 } 
 
