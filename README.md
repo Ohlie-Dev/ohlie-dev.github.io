@@ -2,7 +2,7 @@
 This is the source code for my professional portfolio website. It serves as a central hub for my projects, technical skills, and my journey into Software Engineering.
 
 ## Live Link
-**See it in action:** [https://ollie-dev.netlify.app](https://ollie-dev.netlify.app)
+**See it in action:** https://ohliedev.netlify.app/
 
 ___________________________________
 
@@ -25,7 +25,7 @@ ___________________________________
 ## How to Run Locally
 If you'd like to explore the code on your own machine:
 1. Clone the repository:
-   `git clone https://github.com/ohlie-dev/your-portfolio-repo-name.git`
+   `git clone https://github.com/Ohlie-Dev/portfolio.github.io`
 2. Open `index.html` in your browser.
 
 ___________________________________
